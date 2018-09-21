@@ -14,6 +14,7 @@
 
 import { MemoryStorage } from '../StorageHelper';
 
+/*
 if (!(<any>global).window) {
     (<any>global).window = {
         setTimeout,
@@ -30,3 +31,4 @@ if (!(<any>global).window) {
 if (!(<any>global).window.localStorage) {
     (<any>global).window.localStorage = MemoryStorage;
 }
+*/
